@@ -1,0 +1,33 @@
+# Build and release output
+dist/
+*.zip
+
+# Binaries and debug files: build them, never commit them
+*.exe
+*.dll
+*.pdb
+*.lib
+*.obj
+*.o
+.zig-cache/
+zig-out/
+
+# Local toolchain
+.tools/
+
+# Written by the game or the installer, and test leftovers
+lm-bug-report.txt
+lm-install.txt
+LM_MMMerge.log
+LM_Gamepad.ini
+*.lm-bak
+*.tmp
+_tmp*/
+*.log
+
+# Editors, OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,25 @@
+name: Bug report
+description: Something broke or behaves wrongly
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. If you came here from the in-game bug report (Extra settings > Controller > Report a bug), the fields below are already filled in.
+        Otherwise, use that button in the game first and paste the report below, or attach `lm-bug-report.txt` from the game folder.
+  - type: textarea
+    id: description
+    attributes:
+      label: What went wrong?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Report
+      description: Filled in by the in-game bug report. It lists the mod and pack version, enabled scripts, recent errors and pad info. Folder names are removed.
+      placeholder: Paste lm-bug-report.txt here.
+    validations:
+      required: false

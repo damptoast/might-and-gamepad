@@ -1,0 +1,6 @@
+LIBRARY dinput
+EXPORTS
+DirectInputCreateA
+DirectInputCreateW
+DirectInputCreateEx
+DllCanUnloadNow
